@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section-home">
+        <div class="hero-content">
+            <h1>Crafting Web Experiences</h1>
+            <img src="profile-placeholder.jpg" alt="Profile Photo" class="profile-photo">
+            <p>Full-Stack Web Developer dedicated to building responsive and dynamic websites.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-about">
+        <h2>About Me</h2>
+        <p>An experienced web developer with a background in creating innovative and user-friendly web solutions. Strong
+            expertise in both front-end and back-end technologies, with a commitment to continuous learning and
+            professional growth.</p>
+        <p>Education in Computer Science and a solid foundation in software development principles, coupled with
+            hands-on experience in various projects.</p>
+        <p>Professional experience includes developing web applications, managing databases, and collaborating with
+            cross-functional teams to deliver high-quality software products.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Responsive Landing Page</h3>
+                <p>A fully responsive landing page using HTML, CSS, and JavaScript.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Stopwatch Web Application</h3>
+                <p>A stopwatch application built with HTML, CSS, and JavaScript.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Personal Portfolio Website</h3>
+                <p>A personal portfolio showcasing web development skills and projects.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-item">
+                <h3>Weather App</h3>
+                <p>A weather application using an external API to fetch real-time data.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Personal Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
